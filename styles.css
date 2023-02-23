@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #2563eb;
+    /* --primary-color: green; */
+    --secondary-color: #60a5fa;
+    --dark-gray: #64748b;
+    --off-white: #f1f5f9;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+    color: var(--primary-color);
+}
+
+/**spaces**/
+.margin-md {
+    padding-top: 0.5rem;
+}
+
+
+/**button area**/
+textarea {
+    width: 40%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-translate {
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgb(252, 231, 42);
+    color: black;
+    width: 25%;
+
+}
+
+
+/**Container**/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /*padding: 0rem 1rem*    same as abve*/
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.link-secondary {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+/** List **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** Navigation **/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** Heading **/
+
+.hero {
+    padding: 2.5rem;
+    padding-top: 3rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-img-other {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+
+.hero .hero-heading {
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-invert {
+    color: var(--primary-color);
+}
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.section p {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    list-style-type: disc;
+}
